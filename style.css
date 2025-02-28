@@ -1,0 +1,38 @@
+ackground-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+h1, h2 {
+    color: #222;
+}
+
+button {
+    font-size: 1.2em;
+}
+
+/* Menu de Acessibilidade */
+.menu-acessibilidade {
+    position: fixed;
+    top: 2rem;
+    right: 20px;
+    z-index: 1000;
+}
+
+.opcoes-acessibilidade {
+    display: none;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+.alto-contraste {
+    background-color: black;
+    color: yellow;
+}
